@@ -38,9 +38,9 @@ public class NearestNumber {
 
         for (int i : list) {
             if (i < a) {
-                smallNearest = (a - smallNearest < a - i) ? smallNearest : i;
+                smallNearest = (smallNearest > i) ? smallNearest : i;
             } else if (i > a) {
-                bigNearest = (bigNearest - a < i - a) ? bigNearest : i;
+                bigNearest = (bigNearest < i) ? bigNearest : i;
             }
         }
 
