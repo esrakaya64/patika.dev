@@ -28,7 +28,7 @@ public class NumberGuessingGame {
         }
 
         if (isWin){
-            System.out.println("TURE - You guess the number at " + (6-right) + ". guess");
+            System.out.println("TRUE - You guess the number at " + (6-right) + ". guess");
         }else {
             System.out.println("GAME OVER..");
         }
