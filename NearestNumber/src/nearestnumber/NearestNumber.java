@@ -29,8 +29,8 @@ public class NearestNumber {
             }
         }
 
-        System.out.println("Minimum Value " + min);
-        System.out.println("Maximum Values " + max);
+        System.out.println("Minimum Value is " + min);
+        System.out.println("Maximum Value is " + max);
         System.out.println("Number: " + a);
 
         int smallNearest = min;
